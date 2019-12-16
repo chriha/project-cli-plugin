@@ -40,7 +40,7 @@ class DummyCommand extends Command implements Plugin
      */
     public function handle() : void
     {
-        echo 'dummy text';
+        $this->info('a dummy command');
     }
 
 }
