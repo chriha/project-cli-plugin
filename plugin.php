@@ -3,7 +3,7 @@
 /**
  * Include the autoload file, created by Composer
  */
-require __DIR__ . '/vendor/autoload.php';
+//require __DIR__ . '/vendor/autoload.php';
 
 return [
     /**
