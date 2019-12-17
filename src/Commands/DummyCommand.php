@@ -43,4 +43,12 @@ class DummyCommand extends Command implements Plugin
         $this->info('a dummy command');
     }
 
+    /**
+     * Make command only available if inside the project
+     */
+    public static function isActive() : bool
+    {
+        return PROJECT_IS_INSIDE;
+    }
+
 }
