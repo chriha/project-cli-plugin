@@ -1,0 +1,4 @@
+name: __NAMESPACE__/__PLUGIN_NAME__
+version: v1.0.0
+commands:
+  - \__NAMESPACE__\__PLUGIN_NAME__\Commands\DummyCommand
