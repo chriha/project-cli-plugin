@@ -8,7 +8,6 @@
 namespace __NAMESPACE__\__PLUGIN_NAME__\Commands;
 
 use Chriha\ProjectCLI\Commands\Command;
-use Chriha\ProjectCLI\Contracts\Plugin;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
