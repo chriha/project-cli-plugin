@@ -12,7 +12,7 @@ use Chriha\ProjectCLI\Contracts\Plugin;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
-class DummyCommand extends Command implements Plugin
+class DummyCommand extends Command
 {
 
     /** @var string */
